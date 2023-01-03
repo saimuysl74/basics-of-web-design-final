@@ -1,0 +1,32 @@
+body  {margin:0; padding:0; }
+  
+#hero video {
+height: 121vh;
+width: 20½;
+background-position:absolute;
+z-index:10;
+object-fit: cover;
+}
+#hero {
+       position: relative; 
+}   
+
+#hero .content  {
+       
+          height: 100;
+          width: 100;
+          z-index: 20;
+          position: absolute;
+          top: 0;
+          left: 0;
+          text-align: center;
+        
+          display: flex;
+          align-items: center;
+          justify-content: center;
+         }
+      #hero .content h1  {
+             color: aliceblue;
+             font-family: Arial, Helvetica, sans-serif;
+      }
+

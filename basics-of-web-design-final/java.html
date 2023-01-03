@@ -1,0 +1,12 @@
+
+<html>
+    <body>
+    <p>Bugün günlerden :</p>
+    <p id="test"></p>
+    <script>
+    var d = new Date();
+    var gunler= ["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"];
+    document.getElementById("test").innerHTML = gunler[d.getDay()];
+    </script>
+    </body>
+    </html>
